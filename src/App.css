@@ -1,0 +1,347 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.TopNav{
+  padding: 1rem 0rem;
+  background: #e5fafd;
+}
+
+.TopNav ul{
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.user li{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+element {
+  border-width: 1px;
+  border-style: solid;
+  color: black;
+  display: inline-block;
+  height: 18px;
+  border-radius: 30px;
+  vertical-align: middle;
+}
+
+.mainNav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid rgb(225 225 225);
+}
+
+.navdata{
+  display: flex;
+  align-items: center;
+}
+.rightMainNav{
+  display: flex;
+  gap: 1rem;
+}
+
+.menuBar{
+  display: flex;
+  padding: 0.5rem 0rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menuBar ul{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+.input {
+  max-width: 190px;
+  height: 100%;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  caret-color: #f7f7f8;
+  padding: 7px 10px;
+  border: 2px solid #eebf00;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-right: 1px;
+  transition: all .2s ease;
+}
+
+
+
+.search__btn {
+  border: none;
+  cursor: pointer;
+  background-color: #eebf00;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  height: 100%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__btn:hover {
+  background-color: #ddb105;
+}
+
+.w-90{
+  width: 90%;
+  margin: auto;
+}
+
+.d-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+
+.text-gray{
+  color:#b8b8b6 ;
+}
+.text-red{
+  color:red ;
+}
+.banner{
+  width: 100%;
+}
+.banner img{
+  width: 100%;
+  height: 30rem;
+}
+
+.absolute{
+  position: absolute;
+}
+.top-40{
+  top: 40%;
+}
+.left-10{
+  left: 10%;
+}
+
+.relative{
+  position: relative;
+}
+
+.text-xl{
+  font-size: xx-large;
+}
+
+.btn-theme{
+  padding:0.8rem 1.2rem ;
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 0;
+}
+
+.m-4{
+  margin-top: 1.5rem ;
+}
+
+.-top-50{
+  top: -50%;
+}
+
+.w-50{
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 1rem;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+input{
+  padding: 0.8rem 1rem;
+  width: 18rem;
+  background: #f0f0f0;
+  border: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0,0.1);
+}
+.input1{
+  width: 24rem;
+}
+.bannerBtn{
+  border-radius: 2rem;
+}
+
+.my-4{
+  margin: 4rem 0;
+}
+.text-center{
+  text-align: center;
+}
+.formbtn{
+  width: 12rem;
+}
+.banquet{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gray;
+}
+.banquetdata{
+  width: 30%;
+  height: auto;
+  border: 2px solid #d0cfcf;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.banquetImg{
+  width:100%;
+}
+.detailBox{
+  top: -7rem;
+  right: 0;
+  background: white;
+  padding: 1rem;
+  width: 80%;
+  bottom: 0;
+}
+
+.text-end{
+  text-align: end;
+}
+.number{
+  padding: 0 0.5rem;
+}
+
+.pb-2{
+  padding-bottom: 1rem;
+}
+
+.viewBtn{
+  background: none;
+  border: 0;
+  color: blue;
+  margin: 1rem 0;
+}
+
+.color-Blue{
+  color: blue;
+}
+
+.meal{
+  color: green;
+  margin-bottom: 2rem;
+}
+
+.mb-4{
+  margin-bottom: 2rem;
+}
+
+button{
+  cursor: pointer;
+}
+
+.more-Btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.setPositionRight{
+  top: 0;
+  right: 0;
+}
+
+.setPositionLeft{
+  top: 50%;
+  left: 5%;
+}
+
+.w-80{
+    width: 80%;
+    margin: 2rem auto;
+}
+.mapImg{
+  width: 100%;
+}
+
+.d-flexSimple{
+  display: flex;
+  gap: 5rem;
+}
+
+.arrow{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 4rem;
+  width: 40%;
+  gap: 1rem;
+}
+
+.card{
+  width: 30%;
+  padding: 2rem;
+  border-radius: 1.5rem 1.5rem 0 1.5rem;
+  min-height: 14rem;
+}
+.card1{
+  background: red;
+  color: white;
+}
+.card2{
+  background: blue;
+  color: white;
+}
+.card3{
+  background: rgb(255, 217, 0);
+  color: white;
+}
+
+.cardsDiv{
+    margin: 4rem auto;
+}
+
+.content{
+  margin-top: 2rem;
+}
+
+.round{
+  display: flex;
+  margin-top: 2rem;
+  
+}
+.moreBtn{
+  border-radius: 50%;
+  padding: 1.8rem 1rem;
+  background: none;
+  color: white;
+  align-items: start;
+  justify-content: start;
+  border: 1px solid white;
+}
